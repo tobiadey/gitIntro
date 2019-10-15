@@ -56,13 +56,19 @@ _This activity works best if you are completing it with someone else in order to
 
 ### 5. Pushing local changes back to a remote repo
 
-- From the command line, ensure you are in the folder containing your local copy of the forked repo and then type:
+- From the command line, ensure you are in the folder containing your local copy of the forked repo and then follow these three steps:
 
    `git add myName.md` (where _myName.<span>md</span>_ is the name of the file you have just created)
    
-   `git commit --message "Add my details"`
+   This is called 'staging' and indicates the files that you wish to be considered for inclusion in your repo.
+   
+   `git commit --message "Add my biographical details"`
+   
+   Committing staged files is like taking a snapshot of your project at any stage in its development. The content in quotes after `--message` should be fewer than 50 characters in length and in the 'imperative voice' as if completing the sentence _"If accepted, this commit will..."_
    
    `git push`
+   
+   This is the act of transferring your most recent commit (shapshot of your project) to the remote repo. Assuming you haven't [set up an SSH key](https://help.github.com/en/articles/connecting-to-github-with-ssh), you will be asked to supply your GitHub credentials at this point.
 
    If you point a browser to your repo on GitHub and refresh the page, you should see your newly created file now listed as part of the repo.
    
