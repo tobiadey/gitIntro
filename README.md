@@ -1,4 +1,7 @@
+[![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-v1.4%20adopted-ff69b4.svg)](CODE_OF_CONDUCT.md)
+
 # gitIntro
+
 A skeleton repo for learning how to use GitHub and git.
 
 Some useful links:
@@ -10,7 +13,6 @@ Some useful links:
 - [Git Book](https://git-scm.com/book/en/v2) For a detailed and comprehensive guide to using git.
 - [Tips on commit etiquette and best practices](https://hackernoon.com/git-it-together-some-tips-on-commit-etiquette-and-best-practices-for-junior-developers-1f147b8dfd56) from @Gunterja
 - [Adding a code of conduct to your project](https://opensource.guide/code-of-conduct)
-
 
 ## An Intoductory Exercise
 
@@ -58,21 +60,21 @@ _This activity works best if you are completing it with someone else in order to
 
 - From the command line, ensure you are in the folder containing your local copy of the forked repo and then follow these three steps:
 
-   `git add myName.md` (where _myName.<span>md</span>_ is the name of the file you have just created)
-   
-   This is called 'staging' and indicates the files that you wish to be considered for inclusion in your repo.
-   
-   `git commit --message "Add my biographical details"`
-   
-   Committing staged files is like taking a snapshot of your project at any stage in its development. The content in quotes after `--message` should be fewer than 50 characters in length and in the 'imperative voice' as if completing the sentence _"If accepted, this commit will..."_
-   
-   `git push`
-   
-   This is the act of transferring your most recent commit (shapshot of your project) to the remote repo. Assuming you haven't [set up an SSH key](https://help.github.com/en/articles/connecting-to-github-with-ssh), you will be asked to supply your GitHub credentials at this point.
+  `git add myName.md` (where _myName.<span>md</span>_ is the name of the file you have just created)
 
-   If you point a browser to your repo on GitHub and refresh the page, you should see your newly created file now listed as part of the repo.
-   
- ### 6. Making a Pull Request (PR)
+  This is called 'staging' and indicates the files that you wish to be considered for inclusion in your repo.
+
+  `git commit --message "Add my biographical details"`
+
+  Committing staged files is like taking a snapshot of your project at any stage in its development. The content in quotes after `--message` should be fewer than 50 characters in length and in the 'imperative voice' as if completing the sentence _"If accepted, this commit will..."_
+
+  `git push`
+
+  This is the act of transferring your most recent commit (shapshot of your project) to the remote repo. Assuming you haven't [set up an SSH key](https://help.github.com/en/articles/connecting-to-github-with-ssh), you will be asked to supply your GitHub credentials at this point.
+
+  If you point a browser to your repo on GitHub and refresh the page, you should see your newly created file now listed as part of the repo.
+
+### 6. Making a Pull Request (PR)
 
 As a final step, you are going to make a request to the originator of the repo you forked asking them to incorporate the modifications you made to your version of it, back into their original version (If you have forked this repo, I will most likely reject PRs, but please feel free to make one in order to practice).
 
