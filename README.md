@@ -8,6 +8,8 @@ Some useful links:
 - [A glossary of git terms](https://git-scm.com/docs/gitglossary) For distinguishing your _staging_ from _pushing_ and your _forking_ from _cloning_.
 - [Download git](https://git-scm.com/downloads) For issuing git via the command-line.
 - [Git Book](https://git-scm.com/book/en/v2) For a detailed and comprehensive guide to using git.
+- [Tips on commit etiquette and best practices](https://hackernoon.com/git-it-together-some-tips-on-commit-etiquette-and-best-practices-for-junior-developers-1f147b8dfd56) from @Gunterja
+- [Adding a code of conduct to your project](https://opensource.guide/code-of-conduct)
 
 
 ## An Intoductory Exercise
