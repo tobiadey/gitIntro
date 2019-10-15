@@ -50,7 +50,7 @@ _This activity works best if you are completing it with someone else in order to
 
 - Open a command prompt/terminal/shell and `cd` to a place where you would like to store a local copy of the remote repo.
 
-- In the command window, type `git clone XXX` where _XXX_ is the reference you have just copied (_git<span>@github</span>.com:myUsername/gitIntro.git_). You can ctrl-v to paste it to the end of the line. This should download the repo from the remote location on GitHub and create a local copy of it on you computer. You can now make changes to this local copy that won't at this stage have any effect on the remote version sitting on GitHub.
+- In the command window, type `git clone XXX` where _XXX_ is the reference you have just copied (_git<span>@github</span>.com:myUsername/gitIntro.git_). You can ctrl-v to paste it to the end of the line. This should download the repo from the remote location on GitHub and create a local copy of it on your computer. You can now make changes to this local copy that won't at this stage have any effect on the remote version sitting on GitHub.
 
 - In your favourite editor create a new file called `myName.md` where _myName_ is your name without any spaces (e.g. `JoWood.md`). In this file, add some simple biographical details (that you are happy to be made public) and then save it.
 
